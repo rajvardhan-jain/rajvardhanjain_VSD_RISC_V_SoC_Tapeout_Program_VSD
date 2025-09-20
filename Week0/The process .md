@@ -1,6 +1,6 @@
-RISC-V Reference SoC Tapeout Program VSD
+▸RISC-V Reference SoC Tapeout Program VSD
 
-Tools Installation
+▸Tools Installation
 
 All the instructions for installation of required tools can be found here:
 
@@ -16,16 +16,16 @@ Ubuntu 20.04 or higher
 
 (Please use virtual box only if you have only 1 ssd, it will save you 2 days)
 
-Resizing the Ubuntu window to fit the screen
+▸Sizing the Ubuntu window to fit the entire screen:
 
     $ sudo apt update
     $ sudo apt install build-essential dkms linux-headers-$(uname -r)
     $ cd /media/spatha/VBox_GAs_7.1.8/
     $ ./autorun.sh
 
-TOOL CHECK
+▸TOOL CHECK
 
-Yosys
+▸Yosys
 
     $ sudo apt-get update
     $ git clone https://github.com/YosysHQ/yosys.git
@@ -37,14 +37,14 @@ Yosys
 
 ![Yosys](https://github.com/user-attachments/assets/dd4615af-6c7d-4e9b-a912-626cc146898f)
 
-Iverilog
+▸Iverilog
 
     $ sudo apt-get update
     $ sudo apt-get install iverilog
 
 ![iverilog](https://github.com/user-attachments/assets/35229939-8da8-4319-ae36-b37b5af6b1f5)
 
-gtkwave
+▸gtkwave
 
     $ sudo apt-get update
     $ sudo apt install gtkwave
